@@ -1,0 +1,15 @@
+@import "../../../variables";
+
+.list-item {
+  &-pinned-to-bottom {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: $app-padding * 1px;
+    margin-left: -$app-padding * 1.5px;
+  }
+}
+
+.list-item__icon {
+  width: 60px;
+  margin-top: 48px;
+}

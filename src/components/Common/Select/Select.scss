@@ -1,0 +1,13 @@
+@import "../../../variables";
+
+.select {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-height: 50px;
+}
+
+.select__label {
+  color: $non-highlight-text;
+  margin-left: 10px;
+}

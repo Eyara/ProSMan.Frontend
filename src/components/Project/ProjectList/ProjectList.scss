@@ -1,0 +1,19 @@
+.project-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-list-actions {
+  margin: 20px 0 40px 0;
+  display: flex;
+  .select {
+    margin-left: 30px;
+  }
+}
+
+.project-list-container {
+  display: flex;
+  .project-card {
+    margin-right: 30px;
+  }
+}

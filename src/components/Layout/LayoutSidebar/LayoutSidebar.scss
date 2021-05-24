@@ -1,0 +1,11 @@
+@import "../../../variables";
+
+.layout-sidebar {
+  display: flex;
+  flex: 1;
+  margin-left: (60 + $app-padding / 2) * 1px;
+}
+
+.layout-sidebar__icon {
+  margin-left: ($app-padding / 2) * 1px;;
+}

@@ -1,0 +1,13 @@
+@import "../../../variables";
+
+.layout-menu {
+  flex-shrink: 0;
+  white-space: nowrap;
+  margin-top: ($app-bar-height + $app-padding / 2) * 1px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: $primary-color;
+  margin-left: -($app-padding) * 1px;
+  padding: 0 $app-padding * 1px;
+}

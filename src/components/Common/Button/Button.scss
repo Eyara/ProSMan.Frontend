@@ -1,0 +1,10 @@
+@import "../../../variables";
+
+.btn {
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: $additional-color;
+  color: $primary-color;
+  font-weight: 500;
+}

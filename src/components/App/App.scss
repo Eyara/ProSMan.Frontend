@@ -1,5 +1,8 @@
+@import "../../variables";
+
 .App {
   text-align: center;
+  padding-left: $app-padding * 1px;
 }
 
 .App-logo {
@@ -26,6 +29,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.content-wrapper {
+  margin-left: $drawer-width * 1px;
+  margin-top: ($app-bar-height + $app-padding) * 1px;
+  padding: $app-padding * 1px;
 }
 
 @keyframes App-logo-spin {
